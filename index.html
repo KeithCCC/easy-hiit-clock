@@ -7,30 +7,32 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <img src="main-ui.png" alt="Exercise Background" class="background-image">
-        
-        <div class="clock-overlay">
-            <div class="timer-display">
-                <div id="timer">00:00</div>
+    <main class="page">
+        <section class="top-panel">
+            <div class="controls">
+                <button id="goBtn" class="btn btn-go">Start</button>
+                <button id="stopBtn" class="btn btn-stop" disabled>Stop</button>
+                <button id="resetBtn" class="btn btn-reset">Reset</button>
             </div>
-            
+            <div class="timer-display">
+                <div id="timer">03:15</div>
+            </div>
+        </section>
+
+        <section class="poster">
+            <img src="infog.png" alt="5-minute office HIIT routine" class="poster-image">
+        </section>
+
+        <div class="aux-ui">
             <div class="exercise-indicator">
                 <div id="exerciseName">Ready to Start</div>
                 <div id="exerciseStep">Press GO to begin</div>
             </div>
-            
-            <div class="controls">
-                <button id="goBtn" class="btn btn-go">GO</button>
-                <button id="stopBtn" class="btn btn-stop" disabled>STOP</button>
-                <button id="resetBtn" class="btn btn-reset">RESET</button>
-            </div>
-            
             <div class="progress-bar">
                 <div id="progressFill" class="progress-fill"></div>
             </div>
         </div>
-    </div>
+    </main>
 
     <script src="script.js"></script>
 </body>
