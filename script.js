@@ -4,13 +4,13 @@ class HIITClock {
         // Exercise sequence
         this.exercises = [
             { name: 'Warm Up', duration: 30, step: 1 },
-            { name: 'High Knees', duration: 45, step: 2 },
+            { name: 'High Knees', duration: 40, step: 2 },
             { name: 'Rest', duration: 15, step: 3 },
-            { name: 'Burpees', duration: 45, step: 4 },
+            { name: 'Burpees', duration: 40, step: 4 },
             { name: 'Rest', duration: 15, step: 5 },
-            { name: 'Jump Squats', duration: 45, step: 6 },
+            { name: 'Jump Squats', duration: 40, step: 6 },
             { name: 'Rest', duration: 15, step: 7 },
-            { name: 'Mountain Climbers', duration: 45, step: 8 },
+            { name: 'Mountain Climbers', duration: 40, step: 8 },
             { name: 'Rest', duration: 15, step: 9 },
             { name: 'Cool Down', duration: 30, step: 10 }
         ];
